@@ -1,0 +1,14 @@
+.widget {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form-group{
+    display: flex;
+    gap: 10px;
+}
