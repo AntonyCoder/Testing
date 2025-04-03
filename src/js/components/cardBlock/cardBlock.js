@@ -1,4 +1,4 @@
-import './cardBlock.css'
+import './cardBlock.css';
 
 export class CardBlock {
 
@@ -40,7 +40,7 @@ export class CardBlock {
                 src: '/img/mir.png',
             },
             {
-                class: 'jsb',
+                class: 'jcb',
                 src: '/img/jcb.png',
             },
         ]
@@ -48,14 +48,13 @@ export class CardBlock {
         const cardsArr = [];
         cards.forEach(item => {
             const card = document.createElement('li');
-            card.classList.add('card');
+            const cardImage = document.createElement('span');
 
-            const img = document.createElement('img');
-            img.classList.add('card-image', item.class);
-            img.src = item.src;
-            img.alt = item.class;
+            cardImage.classList.add('card-image', item.class);
+            cardImage.style.backgroundImage = `url(${item.src})`;
+            cardImage.title = item.class
 
-            card.appendChild(img);
+            card.appendChild(cardImage);
 
             cardsArr.push(card);
         })
