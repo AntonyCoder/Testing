@@ -4,5 +4,16 @@
     border-radius: 5px;
     border: 1px solid #808080;
     padding: 6px 12px;
-    
+}
+
+.input-valid{
+    background-color: rgb(177, 254, 177);
+}
+
+.input-invalid{
+    background-color: rgb(250, 163, 163);
+}
+
+input:focus{
+    outline: none;
 }

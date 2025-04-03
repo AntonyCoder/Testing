@@ -15,7 +15,6 @@ export class CardBlock {
         return cardBlock;
     }
 
-
     //Отрисовка изображений с картами
     renderCard() {
         const cards = [

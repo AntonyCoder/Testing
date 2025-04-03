@@ -2,13 +2,17 @@
     display: flex;
     flex-direction: column;
     width: 500px;
-    height: 200px;
-    border: 1px solid #5cb85c;
     border-radius: 20px;
     padding: 20px;
+    background-color: rgba(129, 210, 129, 0.573);
 }
 
 .form-group{
     display: flex;
     gap: 10px;
+}
+
+.title{
+    margin: 0;
+    font-weight: normal;
 }

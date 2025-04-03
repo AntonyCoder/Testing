@@ -7,12 +7,12 @@ widget.renderWidget()
 
 const input = document.querySelector('.input');
 const cards = document.querySelectorAll('.card-image');
+const button = document.querySelector('.button');
 
 input.addEventListener('input', showSystemPay);
 
 function showSystemPay() {
     let cardNumber = input.value;
-    console.log('true');
     if (!isNaN(cardNumber)) {
         const cardName = checkSystemPay(cardNumber);
         cards.forEach((item) => {
@@ -22,9 +22,18 @@ function showSystemPay() {
                 item.classList.remove('card-image-disabled');
             }
         })
-
     }
+}
 
+button.addEventListener('click', checkValidNumber);
 
-
+function checkValidNumber(){
+    const cardNumber = input.value;
+    if(isValid(cardNumber)){
+        input.classList.add('input-valid');
+        input.classList.remove('input-invalid');
+    } else {
+        input.classList.add('input-invalid');
+        input.classList.remove('input-valid');
+    }
 }

@@ -4,9 +4,11 @@
     border-radius: 5px;
     color: #ffffff;
     padding: 6px 12px;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
 }
 
 .button:hover{
     cursor: pointer;
+    background-color: #4e9c4e;
 }
