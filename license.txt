@@ -1,0 +1,45 @@
+LICENSE INFORMATION
+===================
+
+This project uses third-party images under various licenses. Below is a list of assets with proper attribution.
+
+------------------------------------------------------------
+1. Image: mastercard.png  
+Source: https://www.freeimages.com/icon/mastercard-curved-5617576  
+Author: Basem El-Khatib  
+License: Free for commercial use with attribution  
+Link to license: https://www.freeimages.com/license
+
+------------------------------------------------------------
+2. Image: visa.png  
+Source: https://www.freeimages.com/icon/visa-straight-5617569  
+Author: Basem El-Khatib  
+License: Free for commercial use with attribution  
+Link to license: https://www.freeimages.com/license
+
+------------------------------------------------------------
+3. Image: discover.png  
+Source: https://www.freeimages.com/icon/card-discover-5595127  
+Author: Basem El-Khatib  
+License: Free for commercial use with attribution  
+Link to license: https://www.freeimages.com/license
+
+------------------------------------------------------------
+4. Image: american-express.png  
+Source: https://www.freeimages.com/icon/credit-american-express-5637239  
+Author: Basem El-Khatib  
+License: Free for commercial use with attribution  
+Link to license: https://www.freeimages.com/license
+
+------------------------------------------------------------
+5. Image: jsb.png  
+Source: https://www.freeimages.com/icon/pepsized-jcb-5686203  
+Author: Ahmad Hammoud  
+License: Free for commercial use with attribution  
+Link to license: https://www.freeimages.com/license
+
+------------------------------------------------------------
+6. Image: mir.png  
+Source: https://png.klev.club/uploads/posts/2024-05/png-klev-club-1d6q-p-logotip-mir-png-6.png  
+Author: Unknown  
+License: Unknown (Downloaded via Yandex Images search)  

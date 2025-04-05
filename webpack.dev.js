@@ -10,9 +10,14 @@ module.exports = merge(common, {
 
   // Spin up a server for quick development
   devServer: {
+    static: {
+      directory: "./dist", // Путь к собранным файлам
+    },
+    port: 9000,             // Должен совпадать с URL в e2e тестах
     historyApiFallback: true,
     open: true,
     compress: true,
+    hot: true,
   },
 
   plugins: [

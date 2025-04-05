@@ -1,4 +1,4 @@
-import { Widget } from "./components/widget/widget";
+import { Widget } from "./components/widget/widget.js";
 import { isValid } from "./algorithmLuhn";
 import { checkSystemPay } from "./checkSystemPay";
 

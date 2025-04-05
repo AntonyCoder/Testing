@@ -1,7 +1,7 @@
-import './widget.css'
-import { CardBlock } from '../cardBlock/cardBlock';
-import { Input } from '../input/input';
-import { Button } from '../checkButton/checkButton';
+import { CardBlock } from '../cardBlock/cardBlock.js';
+import { Input } from '../input/input.js';
+import { Button } from '../checkButton/checkButton.js';
+import './widget.css';
 
 export class Widget {
     constructor(element) {
@@ -34,7 +34,5 @@ export class Widget {
         from.appendChild(formGroup);
         formGroup.appendChild(this.input.renderInput());
         formGroup.appendChild(this.button.renderButton());
-
-
     }
 }
