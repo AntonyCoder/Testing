@@ -20,27 +20,27 @@ export class CardBlock {
         const cards = [
             {
                 class: 'mastercard',
-                src: '/img/mastercard.png',
+                src: './img/mastercard.png',
             },
             {
                 class: 'visa',
-                src: '/img/visa.png',
+                src: './img/visa.png',
             },
             {
                 class: 'american-express',
-                src: '/img/american-express.png',
+                src: './img/american-express.png',
             },
             {
                 class: 'discover',
-                src: '/img/discover.png',
+                src: './img/discover.png',
             },
             {
                 class: 'mir',
-                src: '/img/mir.png',
+                src: './img/mir.png',
             },
             {
                 class: 'jcb',
-                src: '/img/jcb.png',
+                src: './img/jcb.png',
             },
         ]
 
