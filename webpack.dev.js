@@ -19,7 +19,14 @@ module.exports = merge(common, {
     compress: true,
     hot: true,
   },
-
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+    ]
+  },
   plugins: [
     // Only update what has changed on hot reload
     new webpack.HotModuleReplacementPlugin(),
